@@ -31,7 +31,7 @@ so 15 demos for 14 standards).
 
 | # | Demo | Std | Week | Libraries | Symbolic? | Status |
 |---|------|-----|------|-----------|-----------|--------|
-| 01 | Interpolation: Runge's phenomenon & Chebyshev nodes | 1,2 | 1–2 | numpy, matplotlib, ipywidgets | no | [ ] |
+| 01 | Interpolation: Runge's phenomenon & Chebyshev nodes | 1,2 | 1–2 | numpy, matplotlib, ipywidgets | no | [~] |
 | 02 | Newton form & divided-difference table | 1 | 1 | numpy, sympy (display) | optional | [ ] |
 | 03 | Cubic splines & boundary conditions | 3 | 3 | numpy, matplotlib, ipywidgets | no | [ ] |
 | 04 | Least squares & orthogonal polynomials | 4 | 3–4 | numpy, matplotlib, sympy | yes (orthogonal polys) | [ ] |
@@ -53,7 +53,18 @@ Filled in as we discuss each. Template: learning goal · what the student sees �
 interactive controls · the theorem it confronts · key parameters/functions.
 
 ### 01 — Interpolation: Runge's phenomenon & Chebyshev nodes
-_TBD_
+- **Goal:** show that higher-degree polynomial interpolation on equispaced nodes can
+  *diverge* (Runge), and that Chebyshev nodes restore convergence.
+- **Student sees:** side-by-side plots — left: f, its interpolant, and the nodes;
+  right: pointwise error on a log scale with the running max-error printed.
+- **Controls (ipywidgets):** degree slider (2–40), node-type dropdown
+  (equispaced / Chebyshev), function dropdown (Runge / sin πx), interval a,b sliders.
+- **Theorem confronted:** interpolation error formula
+  f−pₙ = f⁽ⁿ⁺¹⁾(ξ)/(n+1)! · ∏(x−xₖ); the node polynomial ω(x) is the culprit,
+  and Chebyshev nodes minimize max|ω|.
+- **Verified:** equispaced max-error 1.9 → 60 → 2388 (deg 10/20/30); Chebyshev
+  0.11 → 0.015 → 0.002. Status: `[~]` drafted.
+- **File:** `01_interpolation_runge_chebyshev/demo.ipynb`
 
 ### 02 — Newton form & divided-difference table
 _TBD_
