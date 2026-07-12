@@ -32,15 +32,15 @@ so 15 demos for 14 standards).
 | # | Demo | Std | Week | Libraries | Symbolic? | Status |
 |---|------|-----|------|-----------|-----------|--------|
 | 01 | Interpolation: Runge's phenomenon & Chebyshev nodes | 1,2 | 1–2 | numpy, matplotlib, ipywidgets | no | [~] |
-| 02 | Newton form & divided-difference table | 1 | 1 | numpy, sympy (display) | optional | [ ] |
-| 03 | Cubic splines & boundary conditions | 3 | 3 | numpy, matplotlib, ipywidgets | no | [ ] |
-| 04 | Least squares & orthogonal polynomials | 4 | 3–4 | numpy, matplotlib, sympy | yes (orthogonal polys) | [ ] |
-| 05 | Gaussian elimination / LU with partial pivoting | 5 | 4 | numpy | no | [ ] |
-| 06 | Conditioning: unit ball → ellipse, κ(A) geometry | 6 | 5 | numpy, matplotlib, ipywidgets | no | [ ] |
-| 07 | Floating point & catastrophic cancellation | 6 | 5 | mpmath, numpy | no | [ ] |
-| 08 | Jacobi & Gauss–Seidel convergence, spectral radius | 7 | 6 | numpy, matplotlib | no | [ ] |
-| 09 | Power & inverse iteration → dominant eigenvector | 8 | 6 | numpy, matplotlib, ipywidgets | no | [ ] |
-| 10 | Root-finding: bisection, Newton, secant, cobweb | 9 | 7 | numpy, matplotlib, ipywidgets | no | [ ] |
+| 02 | Newton form & divided-difference table | 1 | 1 | numpy, sympy (display) | optional | [~] |
+| 03 | Cubic splines & boundary conditions | 3 | 3 | numpy, matplotlib, ipywidgets | no | [~] |
+| 04 | Least squares & orthogonal polynomials | 4 | 3–4 | numpy, matplotlib, sympy | yes (orthogonal polys) | [~] |
+| 05 | Gaussian elimination / LU with partial pivoting | 5 | 4 | numpy | no | [~] |
+| 06 | Conditioning: unit ball → ellipse, κ(A) geometry | 6 | 5 | numpy, matplotlib, ipywidgets | no | [~] |
+| 07 | Floating point & catastrophic cancellation | 6 | 5 | mpmath, numpy | no | [~] |
+| 08 | Jacobi & Gauss–Seidel convergence, spectral radius | 7 | 6 | numpy, matplotlib | no | [~] |
+| 09 | Power & inverse iteration → dominant eigenvector | 8 | 6 | numpy, matplotlib, ipywidgets | no | [~] |
+| 10 | Root-finding: bisection, Newton, secant, cobweb | 9 | 7 | numpy, matplotlib, ipywidgets | no | [~] |
 | 11 | Numerical differentiation: the optimal-h U-curve | 10 | 7 | mpmath, numpy, matplotlib | no | [ ] |
 | 12 | Quadrature: Newton–Cotes, composite, adaptive | 11 | 8 | numpy, matplotlib, ipywidgets | no | [ ] |
 | 13 | Gaussian quadrature from orthogonal polynomials | 12 | 8 | sympy, mpmath, numpy | yes (poly construction) | [ ] |
